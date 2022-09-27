@@ -1,0 +1,129 @@
+#portfolio {
+    color : #fff;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.projects--images__container--image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.projects--nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.see_all {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #F4A442;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.see_all > span {
+    margin-right: 5px;
+}
+
+.see_all:hover {
+    transform: scale(1.1);
+    cursor:pointer
+}
+
+.projects--images {
+    columns: 3;
+    gap:5px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.detail-project {
+    position: relative;
+    width: 200px;
+    bottom: 220px;
+    height: 200px;
+    z-index: -10;
+    background-color: rgba(244, 164, 66,0.9);
+
+}
+
+.projects--images__container:hover > .detail-project {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bolder;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.projects--images__container {
+    width: 200px;
+    height: 200px;
+}
+
+.projects--nav span {
+    padding: 10px;
+    cursor : pointer;
+    color: #F4A442;
+}
+
+.projects--images__container--image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects--images__container--image:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    cursor:pointer;
+}
+
+.modal--container__image {
+    background-color: white;
+    padding: 50px;
+    width: 20%;
+    text-align: center;
+    color: #202020;
+}
+.modal--container__image--image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal--container__image--description {
+    position: relative;
+    text-align: center;
+}
+.modal--container__image--buttons > button {
+    margin: 10px;
+    background-color: #416cef;
+    border: none;
+    color: white;
+    width: 70px;
+    height: 30px;
+    cursor:pointer
+}
+
+.modal--container__image > span {
+    bottom: 100px;
+    padding: 10px;
+    cursor:pointer;
+}
+
+.modal--container__image--buttons > button:hover {
+    background-color: #305ad5;
+}

@@ -1,0 +1,51 @@
+.about {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    position: absolute;
+    z-index: 10;
+}
+.about--content__aboutLine {
+    width: 84px;
+    height: 0px;
+    border: 1px solid #000000;
+    margin-left: 70px;
+}
+
+.about--content__description {
+    line-height: 34px;
+}
+
+#about--container {
+    display: flex;
+    background-color:#1B1A17;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color:white;
+    padding: 70px
+}
+
+.about--buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btn {
+    width: 254px;
+    height: 58px;
+    border: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.btn {
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.7s;
+}
+
+
+

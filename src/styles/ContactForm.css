@@ -1,0 +1,58 @@
+.formContainer--form {
+    position: absolute;
+    padding: 50px;
+    width: 50vh;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.formContainer--form input {
+    height: 30px;
+    margin: 20px 0px;
+}
+
+.formContainer--form__message , .formContainer--form input{
+    width: 90%;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid #DFDFDE;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+}
+
+#formContainer--form__button {
+    width: 150px;
+    height: 45px;
+}
+
+.contact-icon {
+    bottom: 280px;
+    position: relative;
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+textarea:focus-within {
+    border: none;
+    outline: none;
+    outline-style: none;
+}
+
+.formContainer--form__message:focus-within {
+    border-bottom: 3px solid #416cef;
+}
+
+#inputContact:focus-within {
+    border-bottom: 3px solid #416cef;
+}

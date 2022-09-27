@@ -1,0 +1,65 @@
+.skillsContainer {
+    background-color: #1B1A17;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.skillsection {
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    top: 420px;
+    position: relative;
+    margin-bottom: 450px;
+    z-index: 0;
+    margin-top: 15px;
+}
+
+.downloadCv {
+    width: 165px;
+    height: 37px;
+    background: #11468F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    color: white;
+    border: none;
+    margin: 50px;
+    cursor: pointer
+}
+
+.downloadFile {
+    display: contents
+}
+
+.skillsContainer--list {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    width: 90%;
+    columns: 2;
+    gap:50px;
+}
+.skillsContainer--key__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lineSkill{
+    height: 6px;
+    background: #C4C4C4;
+    transform-origin: bottom center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.skillsContainer--key {
+    overflow: hidden;
+}
+
+.skillBar {
+    height: 6px;
+    transform-origin: bottom center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 0.6s;
+}

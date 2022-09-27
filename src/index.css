@@ -1,0 +1,40 @@
+body {
+  margin: 0 200px 0 200px;
+  background-color: #202020;
+  color:white
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight:400 ;
+  font-size: 32px;
+}
+h2 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+}
+h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+}

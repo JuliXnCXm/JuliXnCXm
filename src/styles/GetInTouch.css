@@ -1,0 +1,68 @@
+.getintouch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.getintouch-container > h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    margin: 0;
+}
+.getintouch-container > button {
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #2e5bff;
+}
+
+.getintouch-container > button > span {
+    margin: 10px;
+}
+
+.getIntouch {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 85px;
+}
+.getintouch--icon__left {
+    margin-right: 100px;
+    rotate: -90deg;
+    animation: girarLeft 0.5s 0.3s infinite alternate; ;
+    color: #e8bc0c;
+}
+.getintouch--icon__right {
+    margin-left: 100px;
+    animation: girarRight 0.5s 0.3s infinite alternate;
+    color: #e8bc0c;
+}
+
+@keyframes girarLeft {
+    from {
+        transform: rotate(-10deg) translate(10px) rotate(-10deg);
+        font-size: 20px;
+    }
+
+    to {
+        transform: rotate(10deg) translate(20px) rotate(10deg) ;
+        font-size: 30px;
+    }
+}
+@keyframes girarRight {
+    from {
+        transform: rotate(-10deg) translate(10px) rotate(-10deg);
+        font-size: 20px;
+    }
+
+    to {
+        transform: rotate(10deg) translate(10px) rotate(10deg);
+        font-size: 30px;
+    }
+}
