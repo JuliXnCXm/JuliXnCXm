@@ -153,54 +153,56 @@ const Portfolio = () => {
             arrow_forward
           </span>
         </div>
-        {show ? (
+        {show && (
           <Modal>
             <div className="modal--container__image">
-              <span
-                class="contact-icon material-icons material-icons-outlined"
-                onClick={handleClose}
-              >
-                close
-              </span>
-              <h3 className="modal--container__image--title">
-                {data[projectName].title}
-              </h3>
-              <div className="modal--container__image--image">
-                <img
-                  src={
-                    process.env.PUBLIC_URL +
-                    `/images/${data[projectName].photo}`
-                  }
-                  alt={data[projectName].title}
-                />
-                <p className="modal--container__image--description">
-                  {data[projectName].description}
-                </p>
-              </div>
-              <div className="modal--container__image--buttons">
-                {data[projectName].link ?
-                <button
-                  onClick={() => {
-                    window.open(data[projectName].link, "_blank");
-                  }}
+                <span
+                  class="contact-icon material-icons material-icons-outlined"
+                  onClick={handleClose}
                 >
-                  Demo
-                </button>
-                : null}
-                <button
-                  onClick={() => {
-                    window.open(
-                      Data.portfolio.all[projectName].github,
-                      "_blank"
-                    );
-                  }}
-                >
-                  Code
-                </button>
-              </div>
+                  close
+                </span>
+                <div>
+                  <h3 className="modal--container__image--title">
+                    {data[projectName].title}
+                  </h3>
+                  <div className="modal--container__image--image">
+                    <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        `/images/${data[projectName].photo}`
+                      }
+                      alt={data[projectName].title}
+                    />
+                    <p className="modal--container__image--description">
+                      {data[projectName].description}
+                    </p>
+                  </div>
+                  <div className="modal--container__image--buttons">
+                    {data[projectName].link &&
+                    <button
+                      onClick={() => {
+                        window.open(data[projectName].link, "_blank");
+                      }}
+                    >
+                      Demo
+                    </button>
+                    }
+                    <button
+                      onClick={() => {
+                        window.open(
+                          Data.portfolio.all[projectName].github,
+                          "_blank"
+                        );
+                      }}
+                    >
+                      Code
+                    </button>
+                  </div>
+                </div>
             </div>
           </Modal>
-        ) : null}
+        )}
       </div>
     </div>
   );

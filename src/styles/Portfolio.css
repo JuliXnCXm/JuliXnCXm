@@ -92,12 +92,16 @@
 }
 
 .modal--container__image {
-    background-color: white;
     padding: 50px;
     width: 20%;
     text-align: center;
     color: #202020;
 }
+
+.modal--container__image > div {
+    background-color: white;
+}
+
 .modal--container__image--image {
     display: flex;
     justify-content: center;
@@ -124,6 +128,38 @@
     cursor:pointer;
 }
 
+.modal--container__image> div {
+    padding: 50px;
+}
+
 .modal--container__image--buttons > button:hover {
     background-color: #305ad5;
+}
+
+
+@media (max-width: 400px) {
+    .projects--images {
+        columns: 2;
+        gap:5px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+    }
+    .projects--nav {
+        overflow: scroll;
+        max-width: 350px;
+        padding-left: 70px;
+    }
+
+    .modal--container__image {
+        width: 80%;
+    }
+
+    .modal--container__image > span {
+        bottom: 0;
+    }
+
+    .modal--container__image > div {
+        padding :10px;
+    }
 }

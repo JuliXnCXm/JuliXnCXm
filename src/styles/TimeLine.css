@@ -228,7 +228,7 @@ input[data-description="2022-"]:checked~#timeline-descriptions-wrapper p[data-de
     .dot-info {
         width: 60px;
         height: 60px;
-        margin: 0 10px 50px;
+        margin: 0 10px 90px;
     }
 
     input {
@@ -299,5 +299,13 @@ input[data-description="2022-"]:checked~#timeline-descriptions-wrapper p[data-de
 @media (max-width: 400px) {
     .input-flex-container {
         width: 300px;
+    }
+
+    #timeline--professional > h1 {
+        margin-bottom: 0;
+    }
+
+    .timeline > h1 {
+        margin-bottom: 0;
     }
 }

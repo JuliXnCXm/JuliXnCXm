@@ -48,4 +48,15 @@
 }
 
 
+@media (max-width: 400px) {
+    #about--container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        position: relative;
+    }
+}
+
 

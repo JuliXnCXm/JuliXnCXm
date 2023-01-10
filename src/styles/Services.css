@@ -44,3 +44,11 @@
 .servicebox:nth-child(3):hover {
     background: #AE4CCF;
 }
+
+@media (max-width: 400px) {
+    .servicesContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,6 +1,4 @@
 import React from 'react'
-import logo_linkedin from '../assets/icons/linkdin_s.svg'
-import logo_github from '../assets/icons/github_s.svg'
 import foto from '../assets/foto.jpg'
 import '../styles/Hero.css'
 import Modal from './Modal'
@@ -18,11 +16,6 @@ const Hero = () => {
         setShow(false)
     }
 
-    const handleCLickIcon = (e) => {
-        window.location.href = `${e.target.dataset.provider}`
-    }
-
-
     return (
         <>
             <div className="hero">
@@ -30,9 +23,16 @@ const Hero = () => {
                     <Name/>
                     <div className='hero-container'>
                         <img src={foto} alt="" />
-                        <div className="icons">
-                            <img src={logo_github} alt="" data-provider="https://github.com/JuliXnCXm" onClick={handleCLickIcon} />
-                            <img src={logo_linkedin} alt="" data-provider="https://www.linkedin.com/in/camilo-garcia-escobar/" onClick={handleCLickIcon} />
+                        <div id="badges">
+                            <a href="mailto: juliancamilogarciaescobar7@gmail.com">
+                            <img src="https://img.shields.io/badge/-julian-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:juliancamilogarciaescobar7@gmail.com" alt="gmail"/>
+                            </a>
+                            <a href="https://www.linkedin.com/in/camilo-garcia-escobar/">
+                            <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+                            </a>
+                            <a href="https://twitter.com/julianca_garcia">
+                            <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+                            </a>
                         </div>
                         <button className="hero-container__button" onClick={handleClick}>Contact Me</button>
                     </div>

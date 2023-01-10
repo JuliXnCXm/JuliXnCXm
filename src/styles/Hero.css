@@ -21,6 +21,10 @@
     width: fit-content;
 }
 
+#badges a  {
+    margin-right: 10px;
+}
+
 .hero-container > img {
     object-fit: cover;
     width: 176px;
@@ -53,4 +57,20 @@
     width: 40px;
     padding: 10px;
     cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .hero_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero_div  svg {
+        width: 200px;
+        height: 200px;
+    }
+    .hero-container {
+        padding: 0;
+    }
 }

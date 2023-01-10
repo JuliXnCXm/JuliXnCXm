@@ -66,3 +66,17 @@
         font-size: 30px;
     }
 }
+
+@media (max-width: 400px) {
+    .getintouch-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .getintouch--icon__left {
+        margin-right: 5px;
+    }
+
+    .getintouch--icon__right {
+        margin-left: 5px;
+    }
+}

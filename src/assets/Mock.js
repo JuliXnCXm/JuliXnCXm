@@ -40,7 +40,7 @@ const data = {
         color: "#6d82bc",
         percent: 35,
       },
-      "Python Frameworks (Django - Flask -FastAPI)": {
+      "Python Frameworks": {
         color: "#84ac1c",
         percent: 45,
       },
@@ -254,16 +254,17 @@ const data = {
         github: "https://github.com/JuliXnCXm/windbnbChallenge",
         photo: "windbnb.png",
       },
+      tweeter: {
+        title: "Tweeter",
+        description:
+          "Clone of twitter that allows you to create tweets , comments , customiz your profile , etc...",
+        link: "https://tweeterclone.herokuapp.com/",
+        github: "https://github.com/JuliXnCXm/tweeterclonefront",
+        photo: "tweeter.png",
+      },
     },
     dataScience: {
-      twitterSentimentAnalysis: {
-        title: "Twitter Sentiment Analysis",
-        description:
-          "A web application that uses Twitter's API to analyze the sentiment of tweets. The application uses a sentiment analysis model to determine the sentiment of a tweet. The application also uses a sentiment analysis model to determine the sentiment of a user's tweets.",
-        github: "https://github.com/JuliXnCXm/twittersentiment",
-        photo: "twiiter.png",
-      },
-      sraperNews: {
+      scraperNews: {
         title: "Scraper News",
         description:
           "A web scraper that scrapes news from the web and clean the data in a ETL process uasing OOP paradigm.",
@@ -279,13 +280,6 @@ const data = {
       },
     },
     blockchain: {
-      DYNFTS: {
-        title: "Dynamic NFTS",
-        description:
-          "Smart contract that created NFTS that change with every mint",
-        github: "https://github.com/JuliXnCXm/platziretoDNFT",
-        photo: "dnft.png",
-      },
       neofutbol: {
         title: "Neofutbol",
         description:
@@ -337,14 +331,7 @@ const data = {
         github: "https://github.com/JuliXnCXm/catWikiChallenge",
         photo: "cat.png",
       },
-      twitterSentimentAnalysis: {
-        title: "Twitter Sentiment Analysis",
-        description:
-          "A web application that uses Twitter's API to analyze the sentiment of tweets. The application uses a sentiment analysis model to determine the sentiment of a tweet. The application also uses a sentiment analysis model to determine the sentiment of a user's tweets.",
-        github: "https://github.com/JuliXnCXm/twittersentiment",
-        photo: "twiiter.png",
-      },
-      sraperNews: {
+      scraperNews: {
         title: "Scraper News",
         description:
           "A web scraper that scrapes news from the web and clean the data in a ETL process uasing OOP paradigm.",
@@ -359,13 +346,6 @@ const data = {
         github: "https://github.com/JuliXnCXm/windbnbChallenge",
         photo: "windbnb.png",
       },
-      DYNFTS: {
-        title: "Dynamic NFTS",
-        description:
-          "Smart contract that created NFTS that change with every mint",
-        github: "https://github.com/JuliXnCXm/platziretoDNFT",
-        photo: "dnft.png",
-      },
       neofutbol: {
         title: "Neofutbol",
         description:
@@ -373,6 +353,14 @@ const data = {
         link: "https://neofutbol-test.on.fleek.co/",
         github: "https://github.com/sagarciaescobar/neofutbol",
         photo: "neofutbol.png",
+      },
+      tweeter: {
+        title: "Tweeter",
+        description:
+          "Clone of twitter that allows you to create tweets , comments , customize your profile , etc...",
+        link: "https://tweeterclone.herokuapp.com/",
+        github: "https://github.com/JuliXnCXm/tweeterclonefront",
+        photo: "tweeter.png",
       },
     },
   },
