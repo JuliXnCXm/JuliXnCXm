@@ -1,5 +1,4 @@
 import React from 'react'
-import foto from '../assets/foto.jpg'
 import '../styles/Hero.css'
 import Modal from './Modal'
 import ContactForm from './ContactForm'
@@ -22,7 +21,7 @@ const Hero = () => {
                 <div className='hero_div'>
                     <Name/>
                     <div className='hero-container'>
-                        <img src={foto} alt="" />
+                        <img src="https://avatars.githubusercontent.com/u/62450941?s=400&u=f08ca42ee092f802d8796415cbfe5af0163711a6&v=4" alt="" />
                         <div id="badges">
                             <a href="mailto: juliancamilogarciaescobar7@gmail.com">
                             <img src="https://img.shields.io/badge/-julian-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:juliancamilogarciaescobar7@gmail.com" alt="gmail"/>
