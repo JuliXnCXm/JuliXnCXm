@@ -3,6 +3,9 @@
       <img src="https://github.com/JuliXnCXm/JuliXnCXm/blob/master/public/images/dev-svgrepo-com.svg" width="70"/>
       <img src="https://github.com/JuliXnCXm/JuliXnCXm/blob/master/public/images/JuliXnCXm.svg" width="200"/>
   </div>
+  <div>
+    &nbsp;
+  </div>
   <div id="badges">
     <a href="https://www.linkedin.com/in/camilo-garcia-escobar/">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
@@ -16,7 +19,7 @@
 
 ---
 
-### :woman_technologist: About Me :
+### :man_technologist: About Me :
 
 I am a Full Stack Developer and Data Scientist from Colombia.
 
