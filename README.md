@@ -1,7 +1,7 @@
 <div id="header" align="center">
   <div>
       <img src="https://github.com/JuliXnCXm/JuliXnCXm/blob/master/public/images/dev-svgrepo-com.svg" width="70"/>
-      <img src="https://github.com/JuliXnCXm/JuliXnCXm/blob/master/public/images/JuliXnCXm.svg" width="300"/>
+      <img src="https://github.com/JuliXnCXm/JuliXnCXm/blob/master/public/images/JuliXnCXm.svg" width="200"/>
   </div>
   <div id="badges">
     <a href="https://www.linkedin.com/in/camilo-garcia-escobar/">
