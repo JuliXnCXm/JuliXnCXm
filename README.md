@@ -13,6 +13,9 @@
     <a href="mailto:juliancamilogarciaescobar7@gmail.com">
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
     </a>
+    <a href="https://julixncxm.github.io/JuliXnCXm/">
+      <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Portfolio"/>
+    </a>
   </div>
   <img src="https://komarev.com/ghpvc/?username=JuliXnCXm&style=flat-square&color=blue" alt=""/>
 </div>
