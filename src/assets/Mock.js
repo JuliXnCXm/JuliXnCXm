@@ -217,7 +217,7 @@ const data = {
         title: "Image Uploader",
         description:
           "A simple image uploader that allows users to upload images to a database. The images are stored in DB and can be accessed by anyone who has the link.",
-        link: "https://frontendimageuploader.herokuapp.com/",
+        link: "https://julixncxm.github.io/ImageUploader/",
         github: "https://github.com/JuliXnCXm/ImageUploader",
         photo: "imageUp.png",
       },
@@ -226,7 +226,7 @@ const data = {
         title: "My Unsplash",
         description:
           "A image search and upload engine that allows users to upload their own images and search for images with a specific label or title",
-        link: "https://julixncxm.github.io/myunsplashChallenge/",
+        link: "https://julixncxm.github.io/myunsplash/",
         github: "https://github.com/JuliXnCXm/myunsplashChallenge",
         photo: "unsplash.png",
       },
@@ -242,7 +242,7 @@ const data = {
         title: "Cat Wiki",
         description:
           "A simple cat wiki that allows users to search for cats by name or breed and see the descripiton of the breed.",
-        link: "https://catwikichallenge.herokuapp.com/",
+        link: "https://julixncxm.github.io/catWiki/",
         github: "https://github.com/JuliXnCXm/catWikiChallenge",
         photo: "cat.png",
       },
